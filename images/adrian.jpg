@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link href="style/style.css" rel="stylesheet" type="text/css"/>
+	    	<link href="script/script.js" rel="script" type="text/javascript"/>
+		<link href='http://fonts.googleapis.com/css?family=Neuton|Prosto+One' rel='stylesheet' type='text/css'/>
+		<link rel="icon" href="images/favicon.png" type="image/png"/>
+		<title>Mitchell Douglass</title>
+	</head>
+	<body>
+		<div id="header">
+			<h1>
+			<a href="index.php">Mitchell Douglass</a>{			</h1>
+		</div>
+		<div id="inner_content">
+		<div class="subtitle">
+	<h1>About Me:</h1>
+</div>
+
+<a href="aboutme.php">
+	<div id="about" class="container">
+		<p>
+			
+		I am currently an undergraduate computer science student  at Stanford University, graduating (fingers crossed) in 2017. I've worked on a few software and technical projects, and the purpose of this site is to keep a public record of some of the things I have done.
+			</p>
+	</div>
+</a>
+<div class="subtitle">
+	<h1>Projects:</h1>
+</div>
+<a href="movelanguage.php"><div class="container feature-tile"><h2>Move Programming Language</h2><img src="images/move.jpg" alt="Move Programming Language"/><p>A low-level programming language capable of simple computational tasks.</p></div></a><a href="fractal.php"><div class="container feature-tile"><h2>Fractal Maker</h2><img src="images/fractal.jpg" alt="Fractal Maker"/><p>A GUI for generating and saving to disk complex fractal patterns</p></div></a><a href="mandelbrot.php"><div class="container feature-tile"><h2>Mandelbrot Set Viewer</h2><img src="images/mandelbrot.png" alt="Mandelbrot Set Viewer"/><p>A Java application to visualize and explore the famous Mandelbrot set.
+	</p></div></a>
+<div class="linebreak"></div>
+<div class="subtitle">
+	<h1>Activities: </h1>
+</div>
+
+<a href="firstrobotics.php"><div class="container feature-tile"><h2>FIRST Robotics</h2><img src="images/first.jpg" alt="FIRST Robotics"/><p>Was team captain of high school robotics team competing in the FIRST Robotics competition</p></div></a><a href="vexrobotics.php"><div class="container feature-tile"><h2>VEX Robotics</h2><img src="images/vex.jpg" alt="VEX Robotics"/><p>Participated in VEX team as a robot designer and programmer. Went to worlds competition.</p></div></a>
+<div class="linebreak"></div>
+<div class="subtitle">
+	<h1>Contact and Info:</h1>
+</div >
+<div id="contact" class="container">
+	<table>
+		<tr>
+			<td>
+				<a href="resources/resume.html">
+					<h3><b>Resume</b></h3>
+				</a>
+			</td>
+			<td style="text-align:right;">
+				<h3>mrdoug95@stanford.edu</h3>
+			</td>
+		</tr>
+	</table>
+	<p>Feel free to send me an email with any questions or comments you may have. Also, check out my resume available here in html and pdf.</p>
+</div>
+		</div>
+		<div id="footer" class"linebreak">
+			<h1>}</h1>
+		</div>
+	</body>
+</html>

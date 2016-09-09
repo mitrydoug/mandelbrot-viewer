@@ -4,7 +4,7 @@ An interactive GUI for exploring the Mandelbrot set.
 
 ### Overview
 
-The Mandelbrot Set is a set of complex points that satisfy the following property: given a complex number ***c*** and the sequence ***z(n+1)=Z(n)\*Z(n) + c*** where ***z(0)=0***, ***c*** is in the Mandelbot set if and only if ***Z(n)*** remains bounded as ***n*** approaches infinity.
+The Mandelbrot Set is a set of complex points that satisfy the following property: given a complex number ***c*** and the sequence ***z(n+1)=Z(n)*****x*****Z(n) + c*** where ***z(0)=0***, ***c*** is in the Mandelbot set if and only if ***Z(n)*** remains bounded as ***n*** approaches infinity.
 
 The Mandelbrot set can be visualized in the complex plane. Many visualizations color different "bands" of complex numbers according to the index at which the value of the ***z(n)*** sequence surpasses a predetermined magnitude (in our case ***2.0***); if the ***z(n)*** sequence for a particular complex number ***c*** attains a magnitude greater than ***2.0***, it is known that the sequence ultimately diverges. Here is the corresponding visualization:
 

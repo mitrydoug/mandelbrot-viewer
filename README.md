@@ -12,7 +12,13 @@ The Mandelbrot set can be visualized in the complex plane. Many visualizations c
 
 ### The Program
 
-The program that I created allows for zooming in on particular areas of the the set and allows you to save images with a little interaction in the command prompt. Note: the color scheme can be changed by editing the function `generateColorScheme()`.
+The program that I created allows for zooming in on particular areas of the the set and allows you to save images with a little interaction in the command prompt. Note: the color scheme can be changed by editing the function `generateColorScheme()`. This function assigns an arbitrary array of `Color` to the instance variable `scheme`. Wehn coloring the "bands" of the Mandelbrot set, this colors of `scheme` are cycled trough in order and then repeat (see how `scheme` is used in the method `generateImage`. An example of a scheme which colors the bands by alternating red/white/blue is
+
+```java
+public Color[] generateColorScheme(){
+	return {Color.RED, Color.WHITE, Color.BLUE};
+}
+```
 
 ### Gallery
 
